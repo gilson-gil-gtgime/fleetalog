@@ -7,12 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B0C5E721F87199A00FB4E7F /* FeedType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0C5E711F87199A00FB4E7F /* FeedType.swift */; };
+		2B0C5E751F871C9600FB4E7F /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0C5E741F871C9600FB4E7F /* FeedViewModel.swift */; };
+		2B0C5E771F871CA400FB4E7F /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0C5E761F871CA400FB4E7F /* FeedViewController.swift */; };
+		2B0C5E791F871D8000FB4E7F /* FeedResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0C5E781F871D8000FB4E7F /* FeedResult.swift */; };
+		2B0C5E7B1F871DE000FB4E7F /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0C5E7A1F871DE000FB4E7F /* FeedItem.swift */; };
+		2B0C5E7D1F871E2200FB4E7F /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0C5E7C1F871E2200FB4E7F /* Genre.swift */; };
+		2B0C5E7F1F87244000FB4E7F /* FeedItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0C5E7E1F87244000FB4E7F /* FeedItemCell.swift */; };
+		2B9397D01F87341C0045D44D /* RealmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9397CF1F87341C0045D44D /* RealmHelper.swift */; };
+		2BF465DA1F866EB400B492C7 /* FeedTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF465D91F866EB400B492C7 /* FeedTabBarController.swift */; };
+		2BF465E11F8670ED00B492C7 /* Feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BF465E01F8670ED00B492C7 /* Feed.storyboard */; };
+		2BF465E41F86729700B492C7 /* FeedURLRequestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF465E31F86729700B492C7 /* FeedURLRequestable.swift */; };
+		2BF465E61F86729E00B492C7 /* URLRequestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF465E51F86729E00B492C7 /* URLRequestable.swift */; };
+		2BF465E91F8672D100B492C7 /* CompletionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF465E81F8672D100B492C7 /* CompletionType.swift */; };
+		2BF465EB1F8672EF00B492C7 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF465EA1F8672EF00B492C7 /* Endpoints.swift */; };
+		2BF465ED1F8674A000B492C7 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF465EC1F8674A000B492C7 /* NetworkError.swift */; };
 		2BF6C9911F8669AB007A8D9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF6C9901F8669AB007A8D9D /* AppDelegate.swift */; };
-		2BF6C9931F8669AB007A8D9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF6C9921F8669AB007A8D9D /* ViewController.swift */; };
 		2BF6C9961F8669AB007A8D9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BF6C9941F8669AB007A8D9D /* Main.storyboard */; };
 		2BF6C9981F8669AB007A8D9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BF6C9971F8669AB007A8D9D /* Assets.xcassets */; };
 		2BF6C99B1F8669AB007A8D9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BF6C9991F8669AB007A8D9D /* LaunchScreen.storyboard */; };
 		2BF6C9A61F8669AB007A8D9D /* FleetalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF6C9A51F8669AB007A8D9D /* FleetalogTests.swift */; };
+		33AB8C7A3314F1105D558606 /* Pods_Fleetalog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FADC912C7718AE1C57F414D9 /* Pods_Fleetalog.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +41,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B0C5E711F87199A00FB4E7F /* FeedType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedType.swift; sourceTree = "<group>"; };
+		2B0C5E741F871C9600FB4E7F /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		2B0C5E761F871CA400FB4E7F /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		2B0C5E781F871D8000FB4E7F /* FeedResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedResult.swift; sourceTree = "<group>"; };
+		2B0C5E7A1F871DE000FB4E7F /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		2B0C5E7C1F871E2200FB4E7F /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		2B0C5E7E1F87244000FB4E7F /* FeedItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemCell.swift; sourceTree = "<group>"; };
+		2B9397CF1F87341C0045D44D /* RealmHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmHelper.swift; sourceTree = "<group>"; };
+		2BF465D91F866EB400B492C7 /* FeedTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTabBarController.swift; sourceTree = "<group>"; };
+		2BF465E01F8670ED00B492C7 /* Feed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Feed.storyboard; sourceTree = "<group>"; };
+		2BF465E31F86729700B492C7 /* FeedURLRequestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedURLRequestable.swift; sourceTree = "<group>"; };
+		2BF465E51F86729E00B492C7 /* URLRequestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequestable.swift; sourceTree = "<group>"; };
+		2BF465E81F8672D100B492C7 /* CompletionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionType.swift; sourceTree = "<group>"; };
+		2BF465EA1F8672EF00B492C7 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		2BF465EC1F8674A000B492C7 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		2BF6C98D1F8669AB007A8D9D /* Fleetalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fleetalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BF6C9901F8669AB007A8D9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2BF6C9921F8669AB007A8D9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2BF6C9951F8669AB007A8D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2BF6C9971F8669AB007A8D9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BF6C99A1F8669AB007A8D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +65,9 @@
 		2BF6C9A11F8669AB007A8D9D /* FleetalogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FleetalogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BF6C9A51F8669AB007A8D9D /* FleetalogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleetalogTests.swift; sourceTree = "<group>"; };
 		2BF6C9A71F8669AB007A8D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D26BBB762171195501519DD /* Pods-Fleetalog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fleetalog.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fleetalog/Pods-Fleetalog.release.xcconfig"; sourceTree = "<group>"; };
+		7C2DC7A0D0CC47A66C344CA0 /* Pods-Fleetalog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fleetalog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fleetalog/Pods-Fleetalog.debug.xcconfig"; sourceTree = "<group>"; };
+		FADC912C7718AE1C57F414D9 /* Pods_Fleetalog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fleetalog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33AB8C7A3314F1105D558606 /* Pods_Fleetalog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +89,91 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B0C5E701F87198E00FB4E7F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2B0C5E711F87199A00FB4E7F /* FeedType.swift */,
+				2B0C5E781F871D8000FB4E7F /* FeedResult.swift */,
+				2B0C5E7A1F871DE000FB4E7F /* FeedItem.swift */,
+				2B0C5E7C1F871E2200FB4E7F /* Genre.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2B0C5E731F871C8A00FB4E7F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2B0C5E741F871C9600FB4E7F /* FeedViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2BF465D81F866E9900B492C7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2BF465D91F866EB400B492C7 /* FeedTabBarController.swift */,
+				2B0C5E761F871CA400FB4E7F /* FeedViewController.swift */,
+				2B0C5E7E1F87244000FB4E7F /* FeedItemCell.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2BF465DB1F866EBA00B492C7 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				2BF6C9901F8669AB007A8D9D /* AppDelegate.swift */,
+				2BF6C99C1F8669AB007A8D9D /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		2BF465DC1F866ED100B492C7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2BF6C9971F8669AB007A8D9D /* Assets.xcassets */,
+				2BF465DD1F866EDB00B492C7 /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2BF465DD1F866EDB00B492C7 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2BF6C9991F8669AB007A8D9D /* LaunchScreen.storyboard */,
+				2BF6C9941F8669AB007A8D9D /* Main.storyboard */,
+				2BF465E01F8670ED00B492C7 /* Feed.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2BF465E21F86727E00B492C7 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2BF465E31F86729700B492C7 /* FeedURLRequestable.swift */,
+				2BF465E51F86729E00B492C7 /* URLRequestable.swift */,
+				2BF465EA1F8672EF00B492C7 /* Endpoints.swift */,
+				2BF465EC1F8674A000B492C7 /* NetworkError.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2BF465E71F8672C800B492C7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2BF465E81F8672D100B492C7 /* CompletionType.swift */,
+				2B9397CF1F87341C0045D44D /* RealmHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		2BF6C9841F8669AB007A8D9D = {
 			isa = PBXGroup;
 			children = (
 				2BF6C98F1F8669AB007A8D9D /* Fleetalog */,
 				2BF6C9A41F8669AB007A8D9D /* FleetalogTests */,
 				2BF6C98E1F8669AB007A8D9D /* Products */,
+				EBCA51CFC587AFC00E3FA762 /* Pods */,
+				AF08449E7A588D786B313C44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +189,13 @@
 		2BF6C98F1F8669AB007A8D9D /* Fleetalog */ = {
 			isa = PBXGroup;
 			children = (
-				2BF6C9901F8669AB007A8D9D /* AppDelegate.swift */,
-				2BF6C9921F8669AB007A8D9D /* ViewController.swift */,
-				2BF6C9941F8669AB007A8D9D /* Main.storyboard */,
-				2BF6C9971F8669AB007A8D9D /* Assets.xcassets */,
-				2BF6C9991F8669AB007A8D9D /* LaunchScreen.storyboard */,
-				2BF6C99C1F8669AB007A8D9D /* Info.plist */,
+				2BF465DB1F866EBA00B492C7 /* Application */,
+				2BF465D81F866E9900B492C7 /* ViewControllers */,
+				2B0C5E731F871C8A00FB4E7F /* ViewModels */,
+				2B0C5E701F87198E00FB4E7F /* Models */,
+				2BF465E21F86727E00B492C7 /* Network */,
+				2BF465E71F8672C800B492C7 /* Helpers */,
+				2BF465DC1F866ED100B492C7 /* Resources */,
 			);
 			path = Fleetalog;
 			sourceTree = "<group>";
@@ -96,6 +209,23 @@
 			path = FleetalogTests;
 			sourceTree = "<group>";
 		};
+		AF08449E7A588D786B313C44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FADC912C7718AE1C57F414D9 /* Pods_Fleetalog.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBCA51CFC587AFC00E3FA762 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C2DC7A0D0CC47A66C344CA0 /* Pods-Fleetalog.debug.xcconfig */,
+				3D26BBB762171195501519DD /* Pods-Fleetalog.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2BF6C9AA1F8669AB007A8D9D /* Build configuration list for PBXNativeTarget "Fleetalog" */;
 			buildPhases = (
+				4D104B0E01B09E61AA683451 /* [CP] Check Pods Manifest.lock */,
 				2BF6C9891F8669AB007A8D9D /* Sources */,
 				2BF6C98A1F8669AB007A8D9D /* Frameworks */,
 				2BF6C98B1F8669AB007A8D9D /* Resources */,
+				C541DC27ED09F09FEE91EE39 /* [CP] Embed Pods Frameworks */,
+				F980A24BCE5E786E084F1060 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,7 +279,7 @@
 				TargetAttributes = {
 					2BF6C98C1F8669AB007A8D9D = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					2BF6C9A01F8669AB007A8D9D = {
 						CreatedOnToolsVersion = 9.0;
@@ -181,6 +314,7 @@
 			files = (
 				2BF6C99B1F8669AB007A8D9D /* LaunchScreen.storyboard in Resources */,
 				2BF6C9981F8669AB007A8D9D /* Assets.xcassets in Resources */,
+				2BF465E11F8670ED00B492C7 /* Feed.storyboard in Resources */,
 				2BF6C9961F8669AB007A8D9D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,13 +328,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4D104B0E01B09E61AA683451 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fleetalog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C541DC27ED09F09FEE91EE39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Fleetalog/Pods-Fleetalog-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ModelMapper/Mapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fleetalog/Pods-Fleetalog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F980A24BCE5E786E084F1060 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fleetalog/Pods-Fleetalog-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2BF6C9891F8669AB007A8D9D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BF6C9931F8669AB007A8D9D /* ViewController.swift in Sources */,
+				2B0C5E7F1F87244000FB4E7F /* FeedItemCell.swift in Sources */,
+				2B9397D01F87341C0045D44D /* RealmHelper.swift in Sources */,
 				2BF6C9911F8669AB007A8D9D /* AppDelegate.swift in Sources */,
+				2BF465ED1F8674A000B492C7 /* NetworkError.swift in Sources */,
+				2B0C5E771F871CA400FB4E7F /* FeedViewController.swift in Sources */,
+				2BF465DA1F866EB400B492C7 /* FeedTabBarController.swift in Sources */,
+				2B0C5E791F871D8000FB4E7F /* FeedResult.swift in Sources */,
+				2BF465E41F86729700B492C7 /* FeedURLRequestable.swift in Sources */,
+				2BF465E91F8672D100B492C7 /* CompletionType.swift in Sources */,
+				2BF465EB1F8672EF00B492C7 /* Endpoints.swift in Sources */,
+				2B0C5E7B1F871DE000FB4E7F /* FeedItem.swift in Sources */,
+				2B0C5E7D1F871E2200FB4E7F /* Genre.swift in Sources */,
+				2BF465E61F86729E00B492C7 /* URLRequestable.swift in Sources */,
+				2B0C5E721F87199A00FB4E7F /* FeedType.swift in Sources */,
+				2B0C5E751F871C9600FB4E7F /* FeedViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,11 +560,13 @@
 		};
 		2BF6C9AB1F8669AB007A8D9D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C2DC7A0D0CC47A66C344CA0 /* Pods-Fleetalog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Fleetalog/Info.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A6WSB9NHED;
+				INFOPLIST_FILE = "$(SRCROOT)/Fleetalog/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gilsongil.Fleetalog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -367,11 +578,13 @@
 		};
 		2BF6C9AC1F8669AB007A8D9D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D26BBB762171195501519DD /* Pods-Fleetalog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = Fleetalog/Info.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A6WSB9NHED;
+				INFOPLIST_FILE = "$(SRCROOT)/Fleetalog/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gilsongil.Fleetalog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
